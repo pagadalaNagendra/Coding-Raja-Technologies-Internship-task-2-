@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styless.css">
+    <title>Resume Builder</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Resume Builder</h1>
+
+        <!-- Personal Information Section -->
+        <section id="personal-info">
+            <h2>Personal Information</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+
+            <!-- Add more fields as needed -->
+
+            <button onclick="previewResume()">Preview</button>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Education</h2>
+            <!-- Education fields go here -->
+        </section>
+
+        <!-- Work Experience Section -->
+        <section id="work-experience">
+            <h2>Work Experience</h2>
+            <!-- Work experience fields go here -->
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <!-- Skills fields go here -->
+        </section>
+
+        <!-- Preview Section -->
+        <section id="preview">
+            <h2>Preview</h2>
+            <div id="preview-content"></div>
+            <button onclick="downloadResume()">Download</button>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
